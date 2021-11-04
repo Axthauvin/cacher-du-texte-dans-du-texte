@@ -10,7 +10,7 @@ Bonjour, je suis Axel Thauvin
 ``` 
 
 - Dans un premier temps, on vient récupérer la **représentation décimale dans la table UTF-8** de chaque caractère de la chaine `Hacker`
-![Tableau ASCII](
+![Tableau ASCII](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ASCII-Table-wide.svg/800px-ASCII-Table-wide.svg.png)
 
 
 ### 🇬🇧 Comment j'ai caché du texte dans du texte
