@@ -12,7 +12,7 @@ Bonjour, je suis Axel Thauvin
 - Dans un premier temps, on vient récupérer la **représentation décimale dans la table UTF-8** de chaque caractère de la chaine `Hacker`
 
   *Voici dans un tableau, la représentation décimale des 127 premiers caractères (aussi appelé tableau ASCII) :*
-  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/UTF8-TABLE.png" width = "100">
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/UTF8-TABLE.png" width = "500">
 
 
 Pour l'exemple, nous allons prendre le caractère `H`.
