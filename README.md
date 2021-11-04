@@ -22,6 +22,17 @@ Ici, sa représentation décimale est ***72*** (base 10).
   # Pourquoi ?
   Si nous codons les lettres en base 6 sur 4 bits, nous aurons la représenation maximale de `5555` -> soit 6^4 -> 1296
   La valeur maximale que nous allons pouvoir exploiter dans ce tableau
+  
+  En fait nous avons 5 **caractères invisibles** qui vont correspondrent aux chiffres de ces bits, que nous allons *cacher* dans notre texte.
+  *Pour le 0 il n'y a pas de caractère caché*
+  *Pour le 1 c'est le caractère unicode \u200C*
+  
+  # Exemple avec le `H`
+  
+  - Ici la représentation décimale de `H` est ***72***.
+  - Sa représentation en *base 6 sur 4 bits* est ``0200`.
+  - Ici, je vais ajouter le caractère 
+  
 
 
 ### 🇬🇧 Comment j'ai caché du texte dans du texte
