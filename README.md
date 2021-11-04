@@ -77,7 +77,7 @@ For the example, we will take the character `H`.
 Here, its decimal representation is ***72*** (base 10).
 
 - Then we will convert this number to base 6 on 4 'bits'
-  # Why?
+  # Why ?
   If we encode the letters in base 6 on 4 bits, we will have the maximum representation of `5555` -> that is 6^4 -> 1296
   The maximum value we can use in this table
   
