@@ -49,6 +49,8 @@ Ici, sa représentation décimale est ***72*** (base 10).
   ***Et je fais pareil avec tous les caractères de `Hacker`.***
   Ce qui me donne : 
   `Bo‍njou‍r‏,‌ j‍e‏ ‎su‍i͏s͏ A‍x‏e͏l ‎T‌hauvin` (généré avec mon programme)
+  
+  ***Voilà le résultat :***
 
 
 ### 🇬🇧 Comment j'ai caché du texte dans du texte
