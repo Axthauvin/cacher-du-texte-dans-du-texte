@@ -51,7 +51,9 @@ Ici, sa représentation décimale est ***72*** (base 10).
   `Bo‍njou‍r‏,‌ j‍e‏ ‎su‍i͏s͏ A‍x‏e͏l ‎T‌hauvin` (généré avec mon programme)
   
   ***Voilà le résultat :***
+  
   <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/VideoIllustration.gif" style="width: 100%">
+  [![Watch the video]](https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/VideoIllustration.mp4)
 
 
 ### 🇬🇧 Comment j'ai caché du texte dans du texte
