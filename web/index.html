@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacher du texte dans du texte</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./logo.png" />
+</head>
+
+
+<body>
+    <div class="footer">
+        <h1>Cacher du texte dans du texte</h1>
+        <h4 class="italique">Un site de Axel Thauvin</h4>
+
+        
+
+
+    </div>
+    <div class="liens">
+        <a href="./index.html"><button id="selected">Coder un message</button></a>
+        <a href="./decoder.html"><button>Décoder un message</button></a>
+    </div>
+
+    <div class="centered">
+        <div class="main-content">
+            <p>Ce programme se décline en deux parties. <br>
+                Dans un premier temps, il faut saisir un message <span class="italique">(dans la première zone de saisie)</span>, qui sera celui que vous enverrez à quelqu'un. <br>
+                C'est dans celui ci que nous allons cacher votre <strong>message caché !</strong> <span class="italique">(deuxième zone de saisie)</span></p>
+                <h1 id="title1">Première partie : message à envoyer</h1>
+                <textarea id="txtOri" cols="30" rows="10" placeholder="Saisir ici le texte que vous enverrez"></textarea>
+                <h1 id="title2">Deuxième partie : message à cacher</h1>
+                <textarea id="txtcacher" cols="30" rows="10" placeholder="Saisir ici le texte à chacher dans le premier texte"></textarea>
+                <h2 id="textresultat" style="color: rgb(229, 57, 53); margin-top: 20px; margin-bottom: 20px; font-weight: lighter;"></h2>
+                <div class="centered" style="padding-bottom: 50px;">
+                    <button id="valider" class="valider" onclick="coder()">Valider</button>
+                </div>
+                
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

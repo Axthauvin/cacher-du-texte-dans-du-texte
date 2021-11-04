@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Décoder du texte dans du texte</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./logo.png" />
+</head>
+<body>
+    <div class="footer">
+        <h1>Cacher du texte dans du texte</h1>
+        <h4 class="italique">Un site de Axel Thauvin</h4>
+    </div>
+    <div class="liens">
+        <a href="./index.html"><button >Coder un message</button></a>
+        <a href="./decoder.html"><button id="selected">Décoder un message</button></a>
+    </div>
+    
+    <div class="centered">
+        <div class="main-content">
+            <p>Saisir ici un message à décoder, <strong>qui a été généré par ce programme</strong></p>
+                <h1 id="title1">Saisir le message :</h1>
+                <textarea id="txtOri" cols="30" rows="10" placeholder="Saisir ici le message à décoder"></textarea>
+                
+                <h2 id="textresultat" style="color: rgb(17, 80, 153); margin-top: 20px; margin-bottom: 20px; font-weight: lighter;"></h2>
+                <div class="centered" style="padding-bottom: 50px;">
+                    <button id="valider" class="valider" onclick="decoder()">Valider</button>
+                </div>
+                
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
