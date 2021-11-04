@@ -1,6 +1,4 @@
-<style>
-H2{color:red !important;}
-</style>
+<style> h2{color:red !important;}</style>
 
 ### [cacherdutexte.github.io](https://cacherdutexte.github.io)
 
