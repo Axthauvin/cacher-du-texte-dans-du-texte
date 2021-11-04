@@ -13,7 +13,7 @@ Bonjour, je suis Axel Thauvin
 
   *Voici dans un tableau, la représentation décimale des 127 premiers caractères (aussi appelé tableau ASCII) :*
   
-![Tableau ASCII](https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/UTF8-TABLElittle.png)
+![Tableau ASCII](https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/UTF8-TABLElittle.png | width=100)
 
 Pour l'exemple, nous allons prendre le caractère `H`.
 Ici, sa représentation décimale est ***72*** (base 10).
