@@ -1,4 +1,4 @@
-<style> h2{color:red !important;}</style>
+
 
 ### [cacherdutexte.github.io](https://cacherdutexte.github.io)
 
@@ -7,9 +7,7 @@ This project contains :
 - A web version, which is actually hosted on *https://cacherdutexte.github.io*
 
 
-## I explain below how the project works, but an englisg version is available.-
-
-<a style="color:white;" href="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/README.md#-how-did-i-hid-text-in-text">see directly the English explanation</a>
+***I explain below how the project works, but an englisg version is available.<a style="color:white;" href="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/README.md#-how-did-i-hid-text-in-text">see directly the English explanation</a>***
 
 
 
