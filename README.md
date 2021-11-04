@@ -5,8 +5,9 @@ This project contains :
 - A web version, which is actually hosted on *https://cacherdutexte.github.io*
 ```diff
 -I explain below how the project works, but an englisg version is available. 
-<a style="color:white;" href="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/README.md#-how-did-i-hid-text-in-text">see directly the English explanation</a>
+
 ```
+<a style="color:white;" href="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/README.md#-how-did-i-hid-text-in-text">see directly the English explanation</a>
 
 
 
