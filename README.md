@@ -3,9 +3,11 @@
 This project contains : 
 - Python module with a tkinter program to use it
 - A web version, which is actually hosted on *https://cacherdutexte.github.io*
+```diff
+***-I explain below how the project works, but an englisg version is available. 
+<a style="color:white;" href="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/README.md#-how-did-i-hid-text-in-text">see directly the English explanation</a>***
+```
 
-***__I explain below how the project works, but an englisg version is available. 
-<a style="color:white;" href="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/README.md#-how-did-i-hid-text-in-text">see directly the English explanation</a>***__
 
 
 ### :fr: Comment j'ai caché du texte dans du texte
