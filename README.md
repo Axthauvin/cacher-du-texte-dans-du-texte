@@ -44,11 +44,11 @@ Ici, sa représentation décimale est ***72*** (base 10).
   
   ***Reprenons la chaine initiale***
   J'ai `Bonjour, je suis Axel Thauvin`.
-  Je vais donc écrire : **Bo`\u200Dnj`** juste pour le H
+  Je vais donc écrire : **Bo`\u200D`nj** juste pour le H
   
   ***Et je fais pareil avec tous les caractères de `Hacker`.***
   Ce qui me donne : 
-  `Bo‍njou‍r‏,‌ j‍e‏ ‎su‍i͏s͏ A‍x‏e͏l ‎T‌hauvin` (généré avec mon programme)
+  `Bo‍njou‍r‏,‌ j‍e‏ ‎su‍i͏s͏ A‍x‏e͏l ‎T‌hauvin` (généré avec mon programme, vous pouvez l'essayer sur mon site)
   
   ***Voilà le résultat :***
   
@@ -100,11 +100,11 @@ Here, its decimal representation is ***72*** (base 10).
   
   ***Let's go back to the original string***.
   I have `Hello, I am Axel Thauvin`.
-  So I'll write : **I'll write `Bo`\u200Dnj`** just for the H
+  So I'll write : **I'll write `He`\u200D`ll** just for the H
   
   ***And I do the same with all the characters in `Hacker`.
   Which gives me: 
-  Hello, I am Axe͏s͏l Thauvin` (generated with my program)
+  He‍llo,‍ ‏I‌ a‍m‏ ‎Ax‍e͏l͏ T‍h‏a͏uv‎i‌n` (generated with my program, you can try it on my website)
   
   ***Here is the result:***
   
