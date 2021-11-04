@@ -53,8 +53,60 @@ Ici, sa représentation décimale est ***72*** (base 10).
   ***Voilà le résultat :***
   
   <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/VideoIllustration.gif" style="width: 100%">
-  [Watch the video](https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/VideoIllustration.mp4)
+  
 
 
-### 🇬🇧 Comment j'ai caché du texte dans du texte
-C'est une façon en manipulant les bits de cacher du texte dans du texte
+### 🇬🇧 How did I hid text in text 
+This is a bitwise way of hiding text within text.
+Let's imagine the string :
+```
+Hacker
+```
+That I want to hide in the message:
+```
+Hello, I am Axel Thauvin
+``` 
+
+- First, we get the **decimal representation in the UTF-8 table** of each character in the `Hacker` string
+
+  *Here is the decimal representation of the first 127 characters in an array (also called ASCII array):*
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/UTF8-TABLE.png" width = "800">
+
+
+For the example, we will take the character `H`.
+Here, its decimal representation is ***72*** (base 10).
+
+- Then we will convert this number to base 6 on 4 'bits'
+  # Why?
+  If we encode the letters in base 6 on 4 bits, we will have the maximum representation of `5555` -> that is 6^4 -> 1296
+  The maximum value we can use in this table
+  
+  In fact we have 5 **invisible characters** which will correspond to the digits of these bits, which we will *hide* in our text.
+  - For the 0 there is no hidden character*.
+  - For 1 it is the unicode character \u200C*
+  - For 2 it is the unicode character \u200D*
+  - *For 3 it is the unicode character \u200E*
+  - *For 4 it is the unicode character \u200F*
+  - *For 5 it is the unicode character \u034F*
+  
+  # Example with `H`
+  
+  Here the decimal representation of `H` is ***72***.
+  Its 4-bit *base-6* representation is `0200`.
+  I will therefore : - Not add a character for the 1st bit (because it is 0)
+                 - Add the character \u200D for the 2nd bit (because it is 2)
+                 - Not add a character for the 3rd bit (because it is 0)
+                 - Do not add a character for the 4th bit (because it is 0)
+  
+  ***Let's go back to the original string***.
+  I have `Hello, I am Axel Thauvin`.
+  So I'll write : **I'll write `Bo`\u200Dnj`** just for the H
+  
+  ***And I do the same with all the characters in `Hacker`.
+  Which gives me: 
+  Hello, I am Axe͏s͏l Thauvin` (generated with my program)
+  
+  ***Here is the result:***
+  
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/VideoIllustration.gif" style="width: 100%">
+
