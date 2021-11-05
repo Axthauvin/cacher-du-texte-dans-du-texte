@@ -33,7 +33,7 @@ Ici, sa représentation décimale est ***72*** (base 10).
 
 - Ensuite nous allons convertir ce nombre en base 6 sur 4 'bits'
   # Pourquoi ?
-  Si nous codons les lettres en base 6 sur 4 bits, nous aurons la représenation maximale de `5555` -> soit 6<sup>4</sup> -> 1296 :
+  Si nous codons les lettres en base 6 sur 4 bits, nous aurons la représentation maximale de `5555` -> soit 6<sup>4</sup> -> 1296 :
   *la valeur maximale que nous allons pouvoir exploiter dans ce tableau*
   
   En fait nous avons 5 **caractères invisibles** qui vont correspondrent aux chiffres de ces bits, que nous allons *cacher* dans notre texte.
