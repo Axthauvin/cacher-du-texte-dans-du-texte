@@ -33,8 +33,8 @@ Ici, sa représentation décimale est ***72*** (base 10).
 
 - Ensuite nous allons convertir ce nombre en base 6 sur 4 'bits'
   # Pourquoi ?
-  Si nous codons les lettres en base 6 sur 4 bits, nous aurons la représenation maximale de `5555` -> soit 6^4 -> 1296
-  La valeur maximale que nous allons pouvoir exploiter dans ce tableau
+  Si nous codons les lettres en base 6 sur 4 bits, nous aurons la représenation maximale de `5555` -> soit 6<sup>4</sup> -> 1296 :
+  *la valeur maximale que nous allons pouvoir exploiter dans ce tableau*
   
   En fait nous avons 5 **caractères invisibles** qui vont correspondrent aux chiffres de ces bits, que nous allons *cacher* dans notre texte.
   - *Pour le 0 il n'y a pas de caractère caché*
@@ -89,8 +89,7 @@ Here, its decimal representation is ***72*** (base 10).
 
 - Then we will convert this number to base 6 on 4 'bits'
   # Why ?
-  If we encode the letters in base 6 on 4 bits, we will have the maximum representation of `5555` -> that is 6^4 -> 1296
-  The maximum value we can use in this table
+  If we encode the letters in base 6 on 4 bits, we will have the maximum representation of `5555` -> that is 6<sup>4</sup> -> 1296 : *which is the maximum value we can use in this table*
   
   In fact we have 5 **invisible characters** which will correspond to the digits of these bits, which we will *hide* in our text.
   - For the 0 there is no hidden character*.
