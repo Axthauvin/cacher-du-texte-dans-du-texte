@@ -94,9 +94,9 @@ Here, its decimal representation is ***72*** (base 10).
   If we encode the letters in base 6 on 4 bits, we will have the maximum representation of `5555` -> that is 6<sup>4</sup> -> 1296 : *which is the maximum value we can use in this table*
   
   In fact we have 5 **invisible characters** which will correspond to the digits of these bits, which we will *hide* in our text.
-  - For the 0 there is no hidden character*.
-  - For 1 it is the unicode character `\u200C`*
-  - For 2 it is the unicode character `\u200D`*
+  - *For the 0 there is no hidden character*.
+  - *For 1 it is the unicode character `\u200C`*
+  - *For 2 it is the unicode character `\u200D`*
   - *For 3 it is the unicode character `\u200E`*
   - *For 4 it is the unicode character `\u200F`*
   - *For 5 it is the unicode character `\u034F`*
