@@ -3,8 +3,8 @@
 ### [cacherdutexte.github.io](https://cacherdutexte.github.io)
 
 This project contains : 
-- Python module with a tkinter program to use it
-- A web version, which is actually hosted on *https://cacherdutexte.github.io*
+- Python modules (binary and decimal system 6) with a dedicated tkinter program to use it.
+- A web version, which is actually hosted on *https://cacherdutexte.github.io*.
 
 
 ***I explain below how the project works, but an englisg version is available. [See directly the English explanation :uk:](#-how-did-i-hid-text-in-text)***
