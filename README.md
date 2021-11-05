@@ -25,7 +25,7 @@ Bonjour, je suis Axel Thauvin
 - Dans un premier temps, on vient récupérer la **représentation décimale dans la table UTF-8** de chaque caractère de la chaine `Hacker`
 
   *Voici dans un tableau, la représentation décimale des 127 premiers caractères (aussi appelé tableau ASCII) :*
-  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/image/UTF8-TABLE.png" width = "800">
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/images/UTF8-TABLE.png" width = "800">
 
 
 Pour l'exemple, nous allons prendre le caractère `H`.
@@ -63,7 +63,7 @@ Ici, sa représentation décimale est ***72*** (base 10).
   
   ***Voilà le résultat :***
   
-  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/image/VideoIllustration.gif" style="width: 100%">
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/images/VideoIllustration.gif" style="width: 100%">
   
 
 
@@ -81,7 +81,7 @@ Hello, I am Axel Thauvin
 - First, we get the **decimal representation in the UTF-8 table** of each character in the `Hacker` string
 
   *Here is the decimal representation of the first 127 characters in an array (also called ASCII array):*
-  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/UTF8-TABLE.png" width = "800">
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/images/UTF8-TABLE.png" width = "800">
 
 
 For the example, we will take the character `H`.
@@ -119,5 +119,5 @@ Here, its decimal representation is ***72*** (base 10).
   
   ***Here is the result:***
   
-  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/VideoIllustration.gif" style="width: 100%">
+  <img src="https://github.com/Axthauvin/cacher-du-texte-dans-du-texte/blob/main/images/VideoIllustration.gif" style="width: 100%">
 
