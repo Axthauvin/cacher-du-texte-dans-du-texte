@@ -118,7 +118,7 @@ Here, its decimal representation is ***72*** (base 10).
   
   ***And I do the same with all the characters in `Hacker`.***
   Which gives me: 
-  `He‍llo,‍ ‏I‌ a‍m‏ ‎Ax‍e͏l͏ T‍h‏a͏uv‎i‌n` (generated with my program, you can try it on my website)
+  `He‍‍llo‍,‏‍‌ ‏‍I‏‌‎ a‍‍͏m͏‏ ‍‎‏A͏x‍‎e‌͏l͏ T‍h‏a͏uv‎i‌n` (generated with my program, you can try it on my website)
   
   ***Here is the result:***
   
