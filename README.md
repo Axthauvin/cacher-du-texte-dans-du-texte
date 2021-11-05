@@ -114,7 +114,7 @@ Here, its decimal representation is ***72*** (base 10).
   
   ***Let's go back to the original string***.
   I have `Hello, I am Axel Thauvin`.
-  So I'll write : **I'll write He`\u200D`ll** just for the H
+  So I'll write : **He`\u200D`ll** just for the H
   
   ***And I do the same with all the characters in `Hacker`.***
   Which gives me: 
