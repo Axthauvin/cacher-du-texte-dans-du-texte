@@ -48,6 +48,7 @@ Ici, sa représentation décimale est ***72*** (base 10).
   
   Ici la représentation décimale de `H` est ***72***.
   Sa représentation en *base 6 sur 4 bits* est `0200`.
+  
   Je vais donc : - Pas ajouter de caractère pour le 1er bit (car il vaut 0)
                  - Ajouter le caractère \u200D pour le 2ème bit (car il vaut 2)
                  - Pas ajouter de caractère pour le 3ème bit (car il vaut 0)
