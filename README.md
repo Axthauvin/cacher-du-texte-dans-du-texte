@@ -7,7 +7,7 @@ This project contains :
 - A web version, which is actually hosted on *https://cacherdutexte.github.io*.
 
 
-***I explain below how the project works, but an englisg version is available. [See directly the English explanation :uk:](#-how-did-i-hid-text-in-text)***
+***I explain below how the project works, but an english version is available. [See directly the English explanation :uk:](#-how-did-i-hid-text-in-text)***
 
 
 
