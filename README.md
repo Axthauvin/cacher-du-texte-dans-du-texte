@@ -38,21 +38,22 @@ Ici, sa représentation décimale est ***72*** (base 10).
   
   En fait nous avons 5 **caractères invisibles** qui vont correspondrent aux chiffres de ces bits, que nous allons *cacher* dans notre texte.
   - *Pour le 0 il n'y a pas de caractère caché*
-  - *Pour le 1 c'est le caractère unicode \u200C*
-  - *Pour le 2 c'est le caractère unicode \u200D*
-  - *Pour le 3 c'est le caractère unicode \u200E*
-  - *Pour le 4 c'est le caractère unicode \u200F*
-  - *Pour le 5 c'est le caractère unicode \u034F*
+  - *Pour le 1 c'est le caractère unicode `\u200C`*
+  - *Pour le 2 c'est le caractère unicode `\u200D`*
+  - *Pour le 3 c'est le caractère unicode `\u200E`*
+  - *Pour le 4 c'est le caractère unicode `\u200F`*
+  - *Pour le 5 c'est le caractère unicode `\u034F`*
   
   # Exemple avec le `H`
   
   Ici la représentation décimale de `H` est ***72***.
   Sa représentation en *base 6 sur 4 bits* est `0200`.
   
-  Je vais donc : - Pas ajouter de caractère pour le 1er bit (car il vaut 0)
-                 - Ajouter le caractère \u200D pour le 2ème bit (car il vaut 2)
-                 - Pas ajouter de caractère pour le 3ème bit (car il vaut 0)
-                 - Pas ajouter de caractère pour le 4ème bit (car il vaut 0)
+  Je vais donc : 
+  - Pas ajouter de caractère pour le 1er bit (car il vaut 0)
+  - Ajouter le caractère `\u200D` pour le 2ème bit (car il vaut 2)
+  - Pas ajouter de caractère pour le 3ème bit (car il vaut 0)
+  - Pas ajouter de caractère pour le 4ème bit (car il vaut 0)
   
   ***Reprenons la chaine initiale***
   J'ai `Bonjour, je suis Axel Thauvin`.
@@ -94,28 +95,30 @@ Here, its decimal representation is ***72*** (base 10).
   
   In fact we have 5 **invisible characters** which will correspond to the digits of these bits, which we will *hide* in our text.
   - For the 0 there is no hidden character*.
-  - For 1 it is the unicode character \u200C*
-  - For 2 it is the unicode character \u200D*
-  - *For 3 it is the unicode character \u200E*
-  - *For 4 it is the unicode character \u200F*
-  - *For 5 it is the unicode character \u034F*
+  - For 1 it is the unicode character `\u200C`*
+  - For 2 it is the unicode character `\u200D`*
+  - *For 3 it is the unicode character `\u200E`*
+  - *For 4 it is the unicode character `\u200F`*
+  - *For 5 it is the unicode character `\u034F`*
   
   # Example with `H`
   
   Here the decimal representation of `H` is ***72***.
   Its 4-bit *base-6* representation is `0200`.
-  I will therefore : - Not add a character for the 1st bit (because it is 0)
-                 - Add the character \u200D for the 2nd bit (because it is 2)
-                 - Not add a character for the 3rd bit (because it is 0)
-                 - Do not add a character for the 4th bit (because it is 0)
+  
+  I will therefore :
+  - Not add a character for the 1st bit (because it is 0)
+  - Add the character `\u200D` for the 2nd bit (because it is 2)
+  - Not add a character for the 3rd bit (because it is 0)
+   - Do not add a character for the 4th bit (because it is 0)
   
   ***Let's go back to the original string***.
   I have `Hello, I am Axel Thauvin`.
-  So I'll write : **I'll write `He`\u200D`ll** just for the H
+  So I'll write : **I'll write He`\u200D`ll** just for the H
   
-  ***And I do the same with all the characters in `Hacker`.
+  ***And I do the same with all the characters in `Hacker`.***
   Which gives me: 
-  He‍llo,‍ ‏I‌ a‍m‏ ‎Ax‍e͏l͏ T‍h‏a͏uv‎i‌n` (generated with my program, you can try it on my website)
+  `He‍llo,‍ ‏I‌ a‍m‏ ‎Ax‍e͏l͏ T‍h‏a͏uv‎i‌n` (generated with my program, you can try it on my website)
   
   ***Here is the result:***
   
